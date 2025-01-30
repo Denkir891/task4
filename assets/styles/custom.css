@@ -1,0 +1,183 @@
+/* ======= Estilos Generales ======= */
+body {
+    background-color: #f6f8fa; /* Color de fondo estilo GitHub */
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #24292e;
+}
+
+/* ======= Diseño de Tarjetas ======= */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 32px; /* Aumento el padding para más espacio interno */
+    border: 1px solid #d0d7de;
+    width: 100%; /* Aseguro que ocupe el 100% del contenedor */
+    max-width: 450px; /* Aumento ligeramente el tamaño máximo de la tarjeta */
+}
+
+/* ======= Formularios ======= */
+.form-group {
+    display: flex; /* Usamos Flexbox para alinear los elementos en una fila */
+    justify-content: flex-start; /* Alinea los elementos al inicio (a la izquierda) */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 30%; /* El label ocupará el 30% del espacio */
+    text-align: left;
+    margin-right: 15px; /* Separación entre el label y el campo de entrada */
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    padding: 12px; /* Más padding para no estar tan pegados */
+    font-size: 16px;
+    width: 65%; /* Los inputs ocuparán el 65% del espacio */
+}
+
+.form-control:focus {
+    border-color: #0969da;
+    box-shadow: 0 0 0 2px rgba(9, 105, 218, 0.2);
+}
+
+.label-left {
+    margin-left: 10px; /* Añadido margen derecho para separar el label del input */
+}
+
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 16px; /* Un poco más de padding para los botones */
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    margin-top: 16px; /* Despego el botón de los campos */
+}
+
+.btn-primary {
+    background-color: #0969da;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0550ae;
+    transform: translateY(-2px);
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.btn-secondary {
+    background-color: #656d76;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #4c5157;
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    background-color: #cf222e;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #a40e26;
+    transform: translateY(-2px);
+}
+
+.btn-warning {
+    background-color: #f4a261;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #e76f51;
+    transform: translateY(-2px);
+}
+
+.btn-success {
+    background-color: #2da44e;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #1a7f37;
+    transform: translateY(-2px);
+}
+
+/* ======= Tablas ======= */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+    width: 100%;
+    background-color: white;
+}
+
+.table thead {
+    background-color: #24292e;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f6f8fa;
+}
+
+/* ======= Contenedores Centrados ======= */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ======= Diseño de la página de Administración ======= */
+.admin-container {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 32px; /* Aumento el padding del contenedor principal */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d0d7de;
+}
+
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.alert-danger svg {
+    margin-right: 10px;
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+}
+
+.toast-container {
+    z-index: 1050;
+}
+
+.toast {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
